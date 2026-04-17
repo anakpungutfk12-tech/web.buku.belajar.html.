@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buku HTML Interaktif</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #333;
+}
+
+/* SLIDE */
+.slide {
+    display: none;
+    padding: 40px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.active {
+    display: block;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* TITLE */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: #444;
+}
+
+/* CODE */
+.code {
+    background: #111;
+    color: #00ffcc;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+/* LATIHAN */
+.latihan {
+    background: #fff3cd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* NAV */
+.nav {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #222;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📘 Buku Belajar HTML</h1>
+
+<!-- SLIDE 1 -->
+<div class="slide active">
+<div class="card">
+<h2>Bab 1: Apa itu HTML?</h2>
+
+<p>
+HTML adalah bahasa dasar untuk membuat website.  
+HTML digunakan untuk menyusun struktur halaman seperti teks, gambar, dan link.
+</p>
+
+<p>
+Bayangkan HTML seperti kerangka rumah.  
+Tanpa kerangka, rumah tidak bisa berdiri.
+</p>
+
+<div class="code">
+&lt;h1&gt;Halo Dunia&lt;/h1&gt;
+</div>
+
+<p>
+Kode di atas akan menampilkan tulisan besar "Halo Dunia".
+</p>
+
+<div class="latihan">
+<b>Latihan:</b><br>
+Coba ketik ulang kode di atas di VS Code lalu buka di browser.
+</div>
+
+</div>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide">
+<div class="card">
+<h2>Bab 2: Struktur HTML</h2>
+
+<p>
+Setiap halaman HTML harus memiliki struktur dasar.
+</p>
+
+<div class="code">
+&lt;!DOCTYPE html&gt;
+<p>
+&lt;html&gt;
+<p>
+&lt;head&gt;
+<p>
+&lt;title&gt;Judul&lt;/title&gt;
+<p>
+&lt;/head&gt;
+<p>
+&lt;body&gt;<p>
+
+Isi Website
+<p>
+&lt;/body&gt;
+<p>
+&lt;/html&gt;
+</div>
+
+<p>
+Penjelasan:
+</p>
+
+<ul>
+<li><b>html</b> → pembungkus utama</li>
+<li><b>head</b> → informasi</li>
+<li><b>body</b> → isi website</li>
+</ul>
+
+<div class="latihan">
+<b>Latihan:</b><br>
+Buat file HTML baru dan tulis struktur ini.
+</div>
+
+</div>
+</div>
+
+<!-- SLIDE 3 -->
+<div class="slide">
+<div class="card">
+<h2>Bab 3: Tag dan Paragraf</h2>
+
+<p>
+Tag digunakan untuk menampilkan teks.
+</p>
+
+<div class="code">
+&lt;p&gt;Ini paragraf&lt;/p&gt;
+</div>
+
+<p>
+Tag memiliki pembuka dan penutup.
+</p>
+
+<div class="latihan">
+<b>Latihan:</b><br>
+Buat 3 paragraf berbeda di halaman HTML.
+</div>
+
+</div>
+</div>
+
+<!-- SLIDE 4 -->
+<div class="slide">
+<div class="card">
+<h2>Bab 4: Link dan Gambar</h2>
+
+<div class="code">
+&lt;a href="https://google.com"&gt;Google&lt;/a&gt;
+<p>
+&lt;img src="gambar.jpg"&gt;
+</div>
+
+<p>
+Link digunakan untuk berpindah halaman.  
+Gambar digunakan untuk menampilkan visual.
+</p>
+
+<div class="latihan">
+<b>Latihan:</b><br>
+Tambahkan 1 gambar dan 1 link.
+</div>
+
+</div>
+</div>
+
+<!-- SLIDE 5 -->
+<div class="slide">
+<div class="card">
+<h2>Bab 5: Project Akhir</h2>
+
+<div class="code">
+<p>
+&lt;!DOCTYPE html&gt;
+ <p>
+&lt;html&gt;
+ <p>
+&lt;head&gt;
+ <p>
+&lt;title&gt;Website Saya&lt;/title&gt;
+ <p>
+&lt;/head&gt;
+ <p>
+&lt;body&gt;
+ <p>
+&lt;h1&gt;Selamat Datang&lt;/h1&gt;
+ <p>
+&lt;p&gt;Ini website pertama saya&lt;/p&gt;
+ <p>
+&lt;a href="https://google.com"&gt;Klik&lt;/a&gt;
+ <p>
+&lt;/body&gt;
+ <p>
+&lt;/html&gt;
+ </p>
+</div>
+
+<p>
+Ini adalah website sederhana hasil gabungan semua materi.
+</p>
+
+</div>
+</div>
+
+<!-- NAV -->
+<div class="nav">
+<button onclick="prev()">⬅ Prev</button>
+<button onclick="next()">Next ➡</button>
+</div>
+
+<script>
+let slideIndex = 0;
+const slides = document.querySelectorAll(".slide");
+
+function showSlide(i){
+    slides.forEach(s => s.classList.remove("active"));
+    slides[i].classList.add("active");
+}
+
+function next(){
+    // Cek: Jika index sekarang kurang dari jumlah total slide dikurang 1
+    if(slideIndex < slides.length - 1) {
+        slideIndex++;
+        showSlide(slideIndex);
+    } else {
+        alert("Kamu sudah sampai di akhir bab! 🎉");
+    }
+}
+
+function prev(){
+    // Cek: Jika index lebih dari 0, baru boleh mundur
+    if(slideIndex > 0) {
+        slideIndex--;
+        showSlide(slideIndex);
+    }
+}
+</script>
+
+</body>
+</html>
